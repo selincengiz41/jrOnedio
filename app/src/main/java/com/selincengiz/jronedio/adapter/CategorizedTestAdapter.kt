@@ -6,11 +6,13 @@ import android.animation.ValueAnimator
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.core.animation.doOnEnd
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.selincengiz.jronedio.databinding.CategorizedTestBinding
 import com.selincengiz.jronedio.databinding.QuestionBinding
 import com.selincengiz.jronedio.model.Test
+import com.selincengiz.jronedio.view.CategoryTestFragmentDirections
 
 class CategorizedTestAdapter(private val testList: ArrayList<Test>) :
     RecyclerView.Adapter<CategorizedTestAdapter.CategorizedTestHolder>() {
@@ -50,6 +52,12 @@ class CategorizedTestAdapter(private val testList: ArrayList<Test>) :
         colorAnimation6.doOnEnd {
             colorAnimation5.start()
 
+        }
+
+        holder.binding.button.setOnClickListener {
+
+            val action = CategoryTestFragmentDirections.actionCategoryTestFragmentToInsideTestFragment(testList.get(position))
+            Navigation.findNavController(holder.binding.root).navigate(action)
         }
 
 

@@ -22,9 +22,6 @@
         <action
             android:id="@+id/action_homeFragment_to_adminLoginFragment"
             app:destination="@id/adminLoginFragment" />
-        <action
-            android:id="@+id/action_homeFragment_to_categoryTestFragment"
-            app:destination="@id/categoryTestFragment" />
     </fragment>
     <fragment
         android:id="@+id/adminInsertFragment"
@@ -35,10 +32,23 @@
         android:id="@+id/categoryTestFragment"
         android:name="com.selincengiz.jronedio.view.CategoryTestFragment"
         android:label="fragment_category_test"
-        tools:layout="@layout/fragment_category_test" />
+        tools:layout="@layout/fragment_category_test" >
+        <action
+            android:id="@+id/action_categoryTestFragment_to_insideTestFragment"
+            app:destination="@id/insideTestFragment" />
+    </fragment>
     <action
         android:id="@+id/action_global_categoryTestFragment"
         app:destination="@id/categoryTestFragment"
         app:enterAnim="@anim/nav_default_pop_enter_anim"
         app:exitAnim="@anim/nav_default_pop_exit_anim" />
+    <fragment
+        android:id="@+id/insideTestFragment"
+        android:name="com.selincengiz.jronedio.view.InsideTestFragment"
+        android:label="fragment_inside_test"
+        tools:layout="@layout/fragment_inside_test" >
+        <argument
+            android:name="test"
+            app:argType="com.selincengiz.jronedio.model.Test" />
+    </fragment>
 </navigation>
