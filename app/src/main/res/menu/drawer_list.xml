@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <item
+                android:id="@+id/kisilik"
+                android:icon="@drawable/kisilik"
+                android:title="Kişilik Testleri" />
+            <item
+                android:id="@+id/psikoloji"
+                android:icon="@drawable/psikolojik"
+                android:title="Psikolojik Testler" />
+            <item
+                android:id="@+id/iliski"
+                android:icon="@drawable/iliski"
+                android:title="İlişki Tesleri" />
+
+
+
+</menu>

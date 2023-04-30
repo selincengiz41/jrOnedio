@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "172702147283",
+    "firebase_url": "https://junioronedi-324df-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "junioronedi-324df",
+    "storage_bucket": "junioronedi-324df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172702147283:android:59aa1fc92c901fc3232a26",
+        "android_client_info": {
+          "package_name": "com.selincengiz.jronedio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172702147283-2640h475tiragc17474p4i7lvj1lln0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkDFY9-5uharQULPfi05iISh2Q1zRe_Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172702147283-2640h475tiragc17474p4i7lvj1lln0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
