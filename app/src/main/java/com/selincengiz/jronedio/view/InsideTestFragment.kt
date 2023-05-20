@@ -21,12 +21,13 @@ import com.selincengiz.jronedio.model.Question
 import com.selincengiz.jronedio.model.Test
 
 
-class InsideTestFragment : Fragment() {
+class InsideTestFragment : Fragment(), FilledQuestionAdapter.Listener {
     private var _binding: FragmentInsideTestBinding? = null
     private val binding get() = _binding!!
     private lateinit var test: Test
     private lateinit var filledQuestionAdapter: FilledQuestionAdapter
     private val questionSize: ArrayList<Question> = ArrayList()
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +46,7 @@ class InsideTestFragment : Fragment() {
         val view = binding.root
 //Filled Question Adapter
         binding.InsideTestRecycler.layoutManager = LinearLayoutManager(view.context)
-        filledQuestionAdapter = FilledQuestionAdapter(questionSize)
+        filledQuestionAdapter = FilledQuestionAdapter(questionSize , this@InsideTestFragment)
         binding.InsideTestRecycler.adapter = filledQuestionAdapter
 
 
@@ -91,6 +92,11 @@ class InsideTestFragment : Fragment() {
 
             //////////
             binding.question.text=test.header.titleText
+
+
+    }
+
+    override fun onItemClick(question: String, choices: String) {
 
 
     }
