@@ -17,6 +17,7 @@ import com.selincengiz.jronedio.adapter.QuestionAdapter
 import com.selincengiz.jronedio.databinding.FragmentAdminInsertBinding
 import com.selincengiz.jronedio.databinding.FragmentCategoryTestBinding
 import com.selincengiz.jronedio.databinding.FragmentInsideTestBinding
+import com.selincengiz.jronedio.model.Question
 import com.selincengiz.jronedio.model.Test
 
 
@@ -24,6 +25,9 @@ class InsideTestFragment : Fragment() {
     private var _binding: FragmentInsideTestBinding? = null
     private val binding get() = _binding!!
     private lateinit var test: Test
+    private lateinit var filledQuestionAdapter: FilledQuestionAdapter
+    private val questionSize: ArrayList<Question> = ArrayList()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,6 +43,10 @@ class InsideTestFragment : Fragment() {
         _binding = FragmentInsideTestBinding.inflate(inflater, container, false)
 
         val view = binding.root
+//Filled Question Adapter
+        binding.InsideTestRecycler.layoutManager = LinearLayoutManager(view.context)
+        filledQuestionAdapter = FilledQuestionAdapter(questionSize)
+        binding.InsideTestRecycler.adapter = filledQuestionAdapter
 
 
 
@@ -51,8 +59,9 @@ class InsideTestFragment : Fragment() {
 
         arguments?.let {
             test= InsideTestFragmentArgs.fromBundle(it).test
-
-
+            questionSize.addAll(test.questions)
+            filledQuestionAdapter.notifyDataSetChanged()
+            binding.root.requestLayout()
         }
         ////// Finish Buton Animasyonu
         val button = binding.finishButton

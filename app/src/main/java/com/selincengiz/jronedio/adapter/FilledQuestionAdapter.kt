@@ -8,11 +8,14 @@ import com.selincengiz.jronedio.databinding.AnswerBinding
 import com.selincengiz.jronedio.databinding.QuestionBinding
 import com.selincengiz.jronedio.databinding.QuestionFilledBinding
 import com.selincengiz.jronedio.databinding.ResultBucketBinding
+import com.selincengiz.jronedio.model.MultiChoiceAnswer
 import com.selincengiz.jronedio.model.Question
 import com.selincengiz.jronedio.model.Test
+import okhttp3.internal.notify
 
 class FilledQuestionAdapter(private val questionList:List<Question>) :
     RecyclerView.Adapter<FilledQuestionAdapter.FilledQuestionHolder>() {
+
 
 
     class FilledQuestionHolder(val binding: QuestionFilledBinding) : RecyclerView.ViewHolder(binding.root) {
@@ -28,7 +31,19 @@ class FilledQuestionAdapter(private val questionList:List<Question>) :
     }
 
     override fun onBindViewHolder(holder: FilledQuestionHolder, position: Int) {
+         var filledChoicesAdapter: FilledChoicesAdapter
+        var multichoiceSize: ArrayList<MultiChoiceAnswer> = ArrayList()
+        holder.binding.textView.text=questionList.get(position).question
 
+        //////Filledchoice adapteri bağlama
+        holder.binding.insideTestRecycler.layoutManager = LinearLayoutManager(holder.binding.root.context)
+        filledChoicesAdapter = FilledChoicesAdapter(multichoiceSize)
+        holder.binding.insideTestRecycler.adapter = filledChoicesAdapter
+
+        /////Filledchoice ekleme
+
+        multichoiceSize.addAll(questionList.get(position).multiChoiceAnswers)
+        filledChoicesAdapter.notifyDataSetChanged()
 
 
 
