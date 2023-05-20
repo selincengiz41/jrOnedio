@@ -42,7 +42,7 @@ class FilledChoicesAdapter (private val questionList:List<MultiChoiceAnswer>) :
             println("asdadads")
         }
 
-        option1.addView(holder.binding.radioButton)
+
 
 
     }
