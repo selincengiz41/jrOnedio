@@ -15,7 +15,6 @@ class QuestionAdapter (private val questionList: ArrayList<Int>, private val lis
 
     class QuestionHolder(val binding: QuestionBinding) : RecyclerView.ViewHolder(binding.root) {
 
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuestionHolder {
@@ -42,7 +41,6 @@ class QuestionAdapter (private val questionList: ArrayList<Int>, private val lis
             listener.onItemClick(questionList)
 
         }
-
 
         /////Seçenek ekleme
         holder.binding.addAnswer.setOnClickListener {

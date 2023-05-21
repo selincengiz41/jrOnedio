@@ -50,5 +50,17 @@
         <argument
             android:name="test"
             app:argType="com.selincengiz.jronedio.model.Test" />
+        <action
+            android:id="@+id/action_insideTestFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.selincengiz.jronedio.view.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="test"
+            app:argType="com.selincengiz.jronedio.model.Test" />
     </fragment>
 </navigation>

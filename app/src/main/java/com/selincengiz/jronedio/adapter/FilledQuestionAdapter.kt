@@ -52,8 +52,7 @@ class FilledQuestionAdapter(private val questionList:List<Question>, private val
         }
         holder.binding.insideTestGroup.setOnCheckedChangeListener { radioGroup, i ->
            listener.onItemClick(questionList.get(position).question ,holder.binding.root.findViewById<RadioButton>(radioGroup.checkedRadioButtonId).text.toString())
-            println(questionList.get(position).question )
-           println(holder.binding.root.findViewById<RadioButton>(radioGroup.checkedRadioButtonId).text.toString())
+
 
         }
 
