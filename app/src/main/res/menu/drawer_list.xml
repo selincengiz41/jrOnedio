@@ -13,7 +13,22 @@
             <item
                 android:id="@+id/iliski"
                 android:icon="@drawable/iliski"
-                android:title="İlişki Tesleri" />
+                android:title="İlişki Testleri" />
+    <item
+        android:id="@+id/astroloji"
+        android:icon="@drawable/astroloji"
+        android:title="Astroloji Testleri" />
+
+    <item
+        android:id="@+id/yemek"
+        android:icon="@drawable/yemek"
+        android:title="Yemek Testleri" />
+
+    <item
+        android:id="@+id/kultur"
+        android:icon="@drawable/kultur"
+        android:title="Genel Kültür Testleri" />
+
 
 
 

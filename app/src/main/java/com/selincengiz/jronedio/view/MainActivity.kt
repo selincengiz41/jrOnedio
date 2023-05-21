@@ -188,6 +188,39 @@ class MainActivity : AppCompatActivity() {
 
                     true
                 }
+                R.id.astroloji -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+
+                    Toast.makeText(this, "Astroloji Testleri", Toast.LENGTH_SHORT).show()
+                    val bundle = bundleOf("type" to "astroloji")
+
+                    binding.fragmentContainerView.findNavController()
+                        .navigate(R.id.action_global_categoryTestFragment,bundle)
+
+                    true
+                }
+                R.id.yemek -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+
+                    Toast.makeText(this, "Yemek Testleri", Toast.LENGTH_SHORT).show()
+                    val bundle = bundleOf("type" to "yemek")
+
+                    binding.fragmentContainerView.findNavController()
+                        .navigate(R.id.action_global_categoryTestFragment,bundle)
+
+                    true
+                }
+                R.id.kultur -> {
+                    drawerLayout.closeDrawer(GravityCompat.START)
+
+                    Toast.makeText(this, "Genel Kültür Testleri", Toast.LENGTH_SHORT).show()
+                    val bundle = bundleOf("type" to "kultur")
+
+                    binding.fragmentContainerView.findNavController()
+                        .navigate(R.id.action_global_categoryTestFragment,bundle)
+
+                    true
+                }
                 else -> {
                     false
                 }

@@ -12,7 +12,7 @@ class QuestionAdapter (private val questionList: ArrayList<Int>, private val lis
         fun onItemClick(questionList: ArrayList<Int>)
     }
     private lateinit var answerAdapter: AnswerAdapter
-
+    private  var answerSize: ArrayList<Int> = ArrayList()
     class QuestionHolder(val binding: QuestionBinding) : RecyclerView.ViewHolder(binding.root) {
 
     }
@@ -25,7 +25,7 @@ class QuestionAdapter (private val questionList: ArrayList<Int>, private val lis
     }
 
     override fun onBindViewHolder(holder: QuestionHolder, position: Int) {
-         val answerSize: ArrayList<Int> = ArrayList()
+
 
        ///////Seçenek bağlama
         holder.binding.answersRecycle.layoutManager = LinearLayoutManager(holder.binding.root.context)

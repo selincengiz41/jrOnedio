@@ -10,7 +10,7 @@ import com.selincengiz.jronedio.databinding.QuestionBinding
 class AnswerAdapter (private val answerList: ArrayList<Int>) :
     RecyclerView.Adapter<AnswerAdapter.AnswerHolder>() {
     private lateinit var bucketAdapter: BucketAdapter
-
+    private var bucketSize: ArrayList<Int> = ArrayList()
     class AnswerHolder(val binding: AnswerBinding) : RecyclerView.ViewHolder(binding.root) {
 
 
@@ -24,7 +24,7 @@ class AnswerAdapter (private val answerList: ArrayList<Int>) :
     }
 
     override fun onBindViewHolder(holder: AnswerHolder, position: Int) {
-        val bucketSize: ArrayList<Int> = ArrayList()
+
 
         //////Bucket adapteri bağlama
         holder.binding.bucketRecycle.layoutManager = LinearLayoutManager(holder.binding.root.context)
