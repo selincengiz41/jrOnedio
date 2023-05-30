@@ -1,4 +1,4 @@
-# jrOnedio
+# JrOnedio
 
 ## Proje Hakkında ## 
 Bu proje, bir kişilik testi uygulaması geliştirmek için yapılmıştır. Bu uygulama, kullanıcılara çeşitli kişilik özellikleri hakkında bilgi sağlamak ve kişilik profillerini anlamalarına yardımcı olmak amacıyla tasarlanmıştır. Aşağıda proje hakkında genel bilgiler ve kullanım talimatları bulunmaktadır.
