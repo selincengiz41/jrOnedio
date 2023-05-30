@@ -34,3 +34,9 @@ This application assists users in creating personality profiles through a series
 - The personality profile will include a general description and analysis. This information can help you understand and enhance your personality traits.
 
 Developer: [Selin Cengiz]
+
+![git](https://github.com/selincengiz41/jrOnedio/assets/60012262/6974e75d-03ae-49a1-8f93-ac6b83cde6b5)
+
+![git1](https://github.com/selincengiz41/jrOnedio/assets/60012262/f0b6cdac-f434-4214-bc60-486d02f1ff31)
+
+![git2](https://github.com/selincengiz41/jrOnedio/assets/60012262/7b636808-f30c-40c5-b9f2-cd68d731af76)
