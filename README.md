@@ -1,33 +1,36 @@
 # JrOnedio
 
-## Proje Hakkında ## 
-Bu proje, bir kişilik testi uygulaması geliştirmek için yapılmıştır. Bu uygulama, kullanıcılara çeşitli kişilik özellikleri hakkında bilgi sağlamak ve kişilik profillerini anlamalarına yardımcı olmak amacıyla tasarlanmıştır. Aşağıda proje hakkında genel bilgiler ve kullanım talimatları bulunmaktadır.
 
-##  Özellikler ## 
-- Farklı kişilik özelliklerine odaklanan soru setleri
-- Kullanıcıya özgü kişilik profili oluşturma
-- Detaylı açıklamalar ve analizler içeren sonuçlar
+##  About the Project  ## 
+This project aims to develop a personality test application. The application is designed to provide users with information about various personality traits and help them understand their personality profiles. Below you will find general information about the project and instructions for usage.
 
+ ## Project Overview  ## 
+This application assists users in creating personality profiles through a series of question sets. Users answer questions related to specific topics or personality traits, and as a result, they receive their personality profile. The application is based on personality theories and offers individualized analysis to users.
 
-##  Kurulum  ##  
-1.Bu projeyi bilgisayarınıza indirin veya kopyalayın.
+##  Features ## 
+- Question sets focusing on different personality traits
+- Creation of personalized personality profiles for each user
+- Detailed descriptions and analysis in the results
 
-2.Uygulamanın ana dizinine gidin.
+##  Installation ##  
+1.Download or clone this project to your computer.
 
-3.Konsolu açın ve aşağıdaki komutu çalıştırın:
+2.Navigate to the main directory of the application.
+
+3.Open the console and run the following command:
 
 `npm install`
 
-4.Bağımlılıkların kurulumunu tamamladıktan sonra aşağıdaki komutu çalıştırarak uygulamayı başlatın:
+4.After the dependencies are installed, start the application by running the following command:
 
 `npm start`
 
-5.Uygulama başarılı bir şekilde başlatıldığında, tarayıcınızda http://localhost:3000 adresine giderek uygulamayı kullanmaya başlayabilirsiniz.
+5.Once the application is successfully started, you can access it by opening http://localhost:3000 in your browser.
 
-##  Kullanım ## 
-Uygulama başlatıldığında, ana sayfa üzerindeki "Başla" veya "Kişilik Testi Başlat" gibi bir düğme bulunacaktır. Bu düğmeye tıklayarak testi başlatabilirsiniz.
-Soru setleri, size çeşitli kişilik özellikleri hakkında sorular soracak şekilde tasarlanmıştır. Her bir soruyu dikkatlice okuyun ve size en uygun olan yanıt seçeneğini seçin.
-Soru seti tamamlandığında, uygulama sonuçları hesaplayacak ve size kişilik profilinizi gösterecektir.
-Kişilik profili, genel bir açıklama ve analizler içerecektir. Bu bilgiler, kişilik özelliklerinizi anlamanıza ve geliştirmenize yardımcı olabilir.
+##  Usage ## 
+- When the application is launched, you will find a button on the homepage labeled "Start" or "Begin Personality Test." Click on this button to initiate the test.
+- The question sets are designed to ask you questions related to various personality traits. Read each question carefully and select the answer option that best suits you.
+- Once you complete the question set, the application will calculate the results and display your personality profile.
+- The personality profile will include a general description and analysis. This information can help you understand and enhance your personality traits.
 
-Geliştirici: [Selin Cengiz]
+Developer: [Selin Cengiz]
