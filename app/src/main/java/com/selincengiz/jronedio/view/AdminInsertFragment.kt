@@ -56,10 +56,6 @@ class AdminInsertFragment : Fragment(), QuestionAdapter.Listener {
 
         return view;
 
-
-
-
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -168,18 +164,18 @@ class AdminInsertFragment : Fragment(), QuestionAdapter.Listener {
         }
 
 
-        /////// Oluştur butonu
+            /////// Oluştur butonu
 
-        binding.buttonCreate.setOnClickListener {
-            val jsonString= binding.json.text.toString()
-            val gson = Gson()
-            val test = gson.fromJson(jsonString, Test::class.java)
-            //Database json verisi gönder
-            val database = Firebase.database
-            val myRef = database.getReference(test.header.titleText)
+            binding.buttonCreate.setOnClickListener {
+                val jsonString= binding.json.text.toString()
+                val gson = Gson()
+                val test = gson.fromJson(jsonString, Test::class.java)
+                //Database json verisi gönder
+                val database = Firebase.database
+                val myRef = database.getReference(test.header.titleText)
 
-            myRef.setValue(jsonString)
-        }
+                myRef.setValue(jsonString)
+            }
 
 
     }

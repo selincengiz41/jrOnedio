@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_homeFragment_to_adminLoginFragment"
             app:destination="@id/adminLoginFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_customizedHomeFragment"
+            app:destination="@id/customizedHomeFragment" />
     </fragment>
     <fragment
         android:id="@+id/adminInsertFragment"
@@ -63,4 +66,13 @@
             android:name="test"
             app:argType="com.selincengiz.jronedio.model.Test" />
     </fragment>
+    <fragment
+        android:id="@+id/customizedHomeFragment"
+        android:name="com.selincengiz.jronedio.view.CustomizedHomeFragment"
+        android:label="fragment_customized_home"
+        tools:layout="@layout/fragment_customized_home" >
+        <argument
+            android:name="subjects"
+            app:argType="string[]" />
+    </fragment><action android:id="@+id/action_global_insideTestFragment" app:destination="@id/insideTestFragment"/>
 </navigation>

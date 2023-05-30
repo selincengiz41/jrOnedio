@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
 
         val logo = binding.root.findViewById<ImageView>(R.id.animLogo)
         val animator = ObjectAnimator.ofFloat(logo, "rotation", 360f)
-        animator.duration = 4000
+        animator.duration = 3000
         animator.startDelay=1000
         animator.start()
         animator.doOnEnd {

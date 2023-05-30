@@ -56,8 +56,10 @@ class CategorizedTestAdapter(private val testList: ArrayList<Test>) :
 
         holder.binding.button.setOnClickListener {
 
-            val action = CategoryTestFragmentDirections.actionCategoryTestFragmentToInsideTestFragment(testList.get(position))
+
+            val action = CategoryTestFragmentDirections.actionGlobalInsideTestFragment(testList.get(position))
             Navigation.findNavController(holder.binding.root).navigate(action)
+
         }
 
 

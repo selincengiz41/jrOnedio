@@ -4,20 +4,24 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/admin_logo.xml" value="0.1595" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/arrow.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/astroloji.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/close.xml" value="0.1865" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/home_animation.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/kisilik.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/kultur.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/drawable/yemek.xml" value="0.1865" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/answer.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/answer_filled.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/arrow.xml" value="0.2734375" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/bucket.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/categorized_test.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_admin_insert.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_admin_login.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_category_test.xml" value="0.22826086956521738" />
-        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_customized_home.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_inside_test.xml" value="0.264" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/fragment_result.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/LENOVO/AndroidStudioProjects/jrOnedio2/app/src/main/res/layout/multichoices_filled.xml" value="0.22826086956521738" />
