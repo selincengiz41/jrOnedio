@@ -3,13 +3,13 @@
 ## Proje Hakkında ## 
 Bu proje, bir kişilik testi uygulaması geliştirmek için yapılmıştır. Bu uygulama, kullanıcılara çeşitli kişilik özellikleri hakkında bilgi sağlamak ve kişilik profillerini anlamalarına yardımcı olmak amacıyla tasarlanmıştır. Aşağıda proje hakkında genel bilgiler ve kullanım talimatları bulunmaktadır.
 
-# Özellikler # 
+##  Özellikler ## 
 - Farklı kişilik özelliklerine odaklanan soru setleri
 - Kullanıcıya özgü kişilik profili oluşturma
 - Detaylı açıklamalar ve analizler içeren sonuçlar
 
 
-# Kurulum  # 
+##  Kurulum  ##  
 1.Bu projeyi bilgisayarınıza indirin veya kopyalayın.
 
 2.Uygulamanın ana dizinine gidin.
@@ -24,7 +24,7 @@ Bu proje, bir kişilik testi uygulaması geliştirmek için yapılmıştır. Bu 
 
 5.Uygulama başarılı bir şekilde başlatıldığında, tarayıcınızda http://localhost:3000 adresine giderek uygulamayı kullanmaya başlayabilirsiniz.
 
-# Kullanım #
+##  Kullanım ## 
 Uygulama başlatıldığında, ana sayfa üzerindeki "Başla" veya "Kişilik Testi Başlat" gibi bir düğme bulunacaktır. Bu düğmeye tıklayarak testi başlatabilirsiniz.
 Soru setleri, size çeşitli kişilik özellikleri hakkında sorular soracak şekilde tasarlanmıştır. Her bir soruyu dikkatlice okuyun ve size en uygun olan yanıt seçeneğini seçin.
 Soru seti tamamlandığında, uygulama sonuçları hesaplayacak ve size kişilik profilinizi gösterecektir.
