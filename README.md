@@ -4,6 +4,18 @@
 ##  About the Project  ## 
 This project aims to develop a personality test application. The application is designed to provide users with information about various personality traits and help them understand their personality profiles. Below you will find general information about the project and instructions for usage.
 
+<!-- Screenshots -->
+## 📸 Screenshots
+<p align="center">
+  <img src="https://github.com/selincengiz41/jrOnedio/assets/60012262/6974e75d-03ae-49a1-8f93-ac6b83cde6b5" width="130" height="300"/> 
+  <img src="https://github.com/selincengiz41/jrOnedio/assets/60012262/f0b6cdac-f434-4214-bc60-486d02f1ff31" width="130" height="300"/> 
+  <img src="https://github.com/selincengiz41/jrOnedio/assets/60012262/7b636808-f30c-40c5-b9f2-cd68d731af76" width="130" height="300"/>
+ 
+
+
+
+</p>
+
  ## Project Overview  ## 
 This application assists users in creating personality profiles through a series of question sets. Users answer questions related to specific topics or personality traits, and as a result, they receive their personality profile. The application is based on personality theories and offers individualized analysis to users.
 
@@ -35,8 +47,4 @@ This application assists users in creating personality profiles through a series
 
 Developer: [Selin Cengiz]
 
-![git](https://github.com/selincengiz41/jrOnedio/assets/60012262/6974e75d-03ae-49a1-8f93-ac6b83cde6b5)
 
-![git1](https://github.com/selincengiz41/jrOnedio/assets/60012262/f0b6cdac-f434-4214-bc60-486d02f1ff31)
-
-![git2](https://github.com/selincengiz41/jrOnedio/assets/60012262/7b636808-f30c-40c5-b9f2-cd68d731af76)
